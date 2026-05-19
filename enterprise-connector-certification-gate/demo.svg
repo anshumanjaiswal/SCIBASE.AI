@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-label="Enterprise connector certification demo dashboard">
+  <rect width="1280" height="720" fill="#101418"/>
+  <rect x="52" y="48" width="1176" height="624" rx="18" fill="#171d23" stroke="#2c3844"/>
+  <text x="88" y="104" fill="#eef5f8" font-family="Arial, sans-serif" font-size="34" font-weight="700">Enterprise Connector Certification Gate</text>
+  <text x="88" y="138" fill="#94a3ad" font-family="Arial, sans-serif" font-size="18">Offline demo output for SCIBASE Enterprise Tooling issue #19</text>
+
+  <g transform="translate(88 180)">
+    <rect width="230" height="116" rx="14" fill="#10271d" stroke="#1c6a44"/>
+    <text x="24" y="42" fill="#8ee6b2" font-family="Arial, sans-serif" font-size="17" font-weight="700">Certified</text>
+    <text x="24" y="88" fill="#ffffff" font-family="Arial, sans-serif" font-size="42" font-weight="700">1</text>
+  </g>
+  <g transform="translate(348 180)">
+    <rect width="230" height="116" rx="14" fill="#2a2410" stroke="#94742a"/>
+    <text x="24" y="42" fill="#f0ce79" font-family="Arial, sans-serif" font-size="17" font-weight="700">Conditional</text>
+    <text x="24" y="88" fill="#ffffff" font-family="Arial, sans-serif" font-size="42" font-weight="700">1</text>
+  </g>
+  <g transform="translate(608 180)">
+    <rect width="230" height="116" rx="14" fill="#2b1515" stroke="#9b3636"/>
+    <text x="24" y="42" fill="#ff9a9a" font-family="Arial, sans-serif" font-size="17" font-weight="700">Blocked</text>
+    <text x="24" y="88" fill="#ffffff" font-family="Arial, sans-serif" font-size="42" font-weight="700">1</text>
+  </g>
+  <g transform="translate(868 180)">
+    <rect width="230" height="116" rx="14" fill="#162232" stroke="#335f91"/>
+    <text x="24" y="42" fill="#9dccff" font-family="Arial, sans-serif" font-size="17" font-weight="700">Signed Events</text>
+    <text x="24" y="88" fill="#ffffff" font-family="Arial, sans-serif" font-size="42" font-weight="700">3</text>
+  </g>
+
+  <g transform="translate(88 340)">
+    <rect width="1104" height="74" rx="12" fill="#111820" stroke="#283746"/>
+    <circle cx="34" cy="37" r="11" fill="#35c46f"/>
+    <text x="62" y="32" fill="#eef5f8" font-family="Arial, sans-serif" font-size="21" font-weight="700">DSpace Repository Deposit</text>
+    <text x="62" y="56" fill="#94a3ad" font-family="Arial, sans-serif" font-size="15">Northbridge University - low risk - webhook coverage 3/3 - score 100</text>
+    <text x="930" y="45" fill="#8ee6b2" font-family="Arial, sans-serif" font-size="18" font-weight="700">CERTIFIED</text>
+  </g>
+
+  <g transform="translate(88 438)">
+    <rect width="1104" height="74" rx="12" fill="#111820" stroke="#283746"/>
+    <circle cx="34" cy="37" r="11" fill="#dfb94a"/>
+    <text x="62" y="32" fill="#eef5f8" font-family="Arial, sans-serif" font-size="21" font-weight="700">Journal Submission Export</text>
+    <text x="62" y="56" fill="#94a3ad" font-family="Arial, sans-serif" font-size="15">Helix Research Institute - medium risk - migration/runbook/metadata warnings - score 76</text>
+    <text x="912" y="45" fill="#f0ce79" font-family="Arial, sans-serif" font-size="18" font-weight="700">CONDITIONAL</text>
+  </g>
+
+  <g transform="translate(88 536)">
+    <rect width="1104" height="74" rx="12" fill="#111820" stroke="#283746"/>
+    <circle cx="34" cy="37" r="11" fill="#e05252"/>
+    <text x="62" y="32" fill="#eef5f8" font-family="Arial, sans-serif" font-size="21" font-weight="700">ELN Human Subjects Sync</text>
+    <text x="62" y="56" fill="#94a3ad" font-family="Arial, sans-serif" font-size="15">Cedar Clinical Lab - high risk - restricted data, wildcard scope, stale API, missing IRB - score 0</text>
+    <text x="948" y="45" fill="#ff9a9a" font-family="Arial, sans-serif" font-size="18" font-weight="700">BLOCKED</text>
+  </g>
+</svg>

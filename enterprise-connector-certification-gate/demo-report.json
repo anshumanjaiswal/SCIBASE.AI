@@ -1,0 +1,48 @@
+{
+  "generatedAt": "2026-05-19T00:00:00.000Z",
+  "module": "enterprise-connector-certification-gate",
+  "summary": {
+    "total": 3,
+    "certified": 1,
+    "conditional": 1,
+    "blocked": 1,
+    "highRisk": [
+      "eln-human-subjects-sync"
+    ]
+  },
+  "certificationQueue": [
+    {
+      "connectorId": "dspace-repository-prod",
+      "name": "DSpace Repository Deposit",
+      "institution": "Northbridge University",
+      "status": "certified",
+      "riskTier": "low",
+      "score": 100,
+      "eventSignature": "d3dc9e6d8e8a3734e5c0653f0bdbf186c8108c82d7a06c705a17fc15436ca0b5"
+    },
+    {
+      "connectorId": "journal-export-beta",
+      "name": "Journal Submission Export",
+      "institution": "Helix Research Institute",
+      "status": "conditional",
+      "riskTier": "medium",
+      "score": 76,
+      "warnings": [
+        "Connector API version deprecates in 57 days.",
+        "Runbook is missing: deadLetter",
+        "Export metadata preservation is incomplete."
+      ],
+      "eventSignature": "e199d1a60c3b85c2db8c7d95fefc497e2532f09644d8ecd7917b9d7a93d6ff6c"
+    },
+    {
+      "connectorId": "eln-human-subjects-sync",
+      "name": "ELN Human Subjects Sync",
+      "institution": "Cedar Clinical Lab",
+      "status": "blocked",
+      "riskTier": "high",
+      "score": 0,
+      "blockerCount": 10,
+      "eventSignature": "17281809e06f175c06b902673d1dc5ae2d3afdf75d11dfece0469133a4eeef7c"
+    }
+  ]
+}
